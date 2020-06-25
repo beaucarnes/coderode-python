@@ -8,7 +8,7 @@ config:
       commands:
         - pip3 install -r requirements.txt
   repo: 
-    uri: https://github.com/beaucarnes/coderoad-python
+    uri: https://github.com/beaucarnes/coderode-python
     branch: v0.1.0
 levels:
   - id: L1
