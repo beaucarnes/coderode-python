@@ -1,1 +1,2 @@
 suit = "hearts"
+rank = "K"
