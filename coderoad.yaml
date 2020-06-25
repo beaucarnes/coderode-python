@@ -9,7 +9,7 @@ config:
         - pip3 install -r requirements.txt
   repo: 
     uri: https://github.com/beaucarnes/coderoad-python
-    branch: v0.1.1
+    branch: v0.1.0
 levels:
   - id: L1
     steps:
