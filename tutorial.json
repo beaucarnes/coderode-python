@@ -1,0 +1,54 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "Learn Python Basics by Building a Blackjack Game",
+    "description": "You are going to build a blackjack card game in Python.\n\nEvery card in blackjack has a suit, rank, and value. For example, the king of hearts has a rank of \"king\", a suit of \"hearts\", and a value of 10 (In blackjack, face cards are worth 10)."
+  },
+  "config": {
+    "testRunner": {
+      "command": "python3 -m tap tests/*_test.py",
+      "args": {
+        "tap": ""
+      },
+      "setup": {
+        "commands": [
+          "pip3 install -r requirements.txt"
+        ],
+        "commits": [
+          "335dca7f142e1f2602f4d039ebb7bbe6f7769cfe"
+        ]
+      }
+    },
+    "repo": {
+      "uri": "https://github.com/beaucarnes/coderode-python",
+      "branch": "v0.1.0"
+    }
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create a string variable",
+      "summary": "Let's represent the king of hearts with Python code. Variables store data. Th...",
+      "content": "Let's represent the king of hearts with Python code. Variables store data. The code already has a variable named `suit` that is set to the value of \"hearts\". Add a variable named `rank` and set it to the value of \"K\" (for king).",
+      "steps": [
+        {
+          "id": "1.1",
+          "setup": {
+            "files": [
+              "src/blackjack.py"
+            ],
+            "commits": [
+              "4af1e58ce78792bed1a48733839878ebcf2cf4ae"
+            ]
+          },
+          "content": "Add a variable named `rank` and set it to the value of \"K\" (for king).",
+          "solution": {
+            "commits": [
+              "81c948a29e14b4bd56bda18b1e0b67f8a9283d5c"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
