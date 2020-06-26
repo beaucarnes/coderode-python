@@ -8,8 +8,7 @@ config:
       commands:
         - echo 'export PYTHONPATH=~/project' >> ~/.bashrc
         - echo 'export PYTHONUSERBASE=~/project' >> ~/.bashrc
-        - export PYTHONPATH=~/project
-        - export PYTHONUSERBASE=~/project
+        - source ~/.bashrc
         - pip3 install --user -r requirements.txt
   repo: 
     uri: https://github.com/beaucarnes/coderode-python

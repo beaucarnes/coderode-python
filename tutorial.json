@@ -12,7 +12,8 @@
       },
       "setup": {
         "commands": [
-          "mkdir testdir",
+          "echo 'export PYTHONPATH=~/project' >> ~/.bashrc",
+          "echo 'export PYTHONUSERBASE=~/project' >> ~/.bashrc",
           "export PYTHONPATH=~/project",
           "export PYTHONUSERBASE=~/project",
           "pip3 install --user -r requirements.txt"
