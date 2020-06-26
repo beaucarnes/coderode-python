@@ -12,6 +12,8 @@
       },
       "setup": {
         "commands": [
+          "export PYTHONPATH=~/project",
+          "export PYTHONUSERBASE=~/project",
           "pip3 install -r requirements.txt"
         ],
         "commits": [
