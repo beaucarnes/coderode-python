@@ -6,6 +6,8 @@ config:
       tap: ''
     setup:
       commands:
+        - export PYTHONPATH=~/project
+        - export PYTHONUSERBASE=~/project
         - pip3 install -r requirements.txt
   repo: 
     uri: https://github.com/beaucarnes/coderode-python
