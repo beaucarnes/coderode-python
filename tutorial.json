@@ -12,9 +12,10 @@
       },
       "setup": {
         "commands": [
+          "mkdir testdir",
           "export PYTHONPATH=~/project",
           "export PYTHONUSERBASE=~/project",
-          "pip3 install -r requirements.txt"
+          "pip3 install --user -r requirements.txt"
         ],
         "commits": [
           "335dca7f142e1f2602f4d039ebb7bbe6f7769cfe"
